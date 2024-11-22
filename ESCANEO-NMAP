@@ -1,0 +1,22 @@
+Análisis de los Resultados
+Puertos y Servicios
+Puerto 22 - OpenSSH 9.2p1 Debian
+
+Vulnerabilidades detectadas:
+
+CVE-2023-38408: (Severidad: 9.8) Potencial explotación remota.
+CVE-2023-28531: (Severidad: 9.8) Problema crítico relacionado con autenticación.
+Exploits adicionales: Varios exploits disponibles en GitHub y PacketStorm con puntuaciones altas (8.1 - 10.0).
+Acción recomendada:
+
+Actualizar OpenSSH a la versión más reciente que corrija estas vulnerabilidades.
+Desactivar métodos de autenticación no seguros (como autenticación por contraseña) y usar claves SSH seguras.
+Puerto 80 - Apache httpd 2.4.62
+
+Servicios detectados:
+Se identificó un posible blog en /wordpress/, con acceso de inicio de sesión en /wordpress/wp-login.php.
+Vulnerabilidades no críticas:
+No se encontraron problemas como XSS (Cross-Site Scripting), CSRF (Cross-Site Request Forgery), o vulnerabilidades DOM en el análisis básico.
+Acción recomendada:
+Revisar /wordpress/ por configuraciones inseguras.
+Asegurarse de que WordPress y sus complementos estén actualizados.
